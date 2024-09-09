@@ -1,7 +1,6 @@
 package com.company.Sprite;
 
 import com.company.GameView.DisasterView;
-import com.company.GameView.GameView;
 import com.company.GameView.RedSeaGameView;
 import com.company.GameView.TenCommandmentsView;
 import com.company.Main;
@@ -37,7 +36,6 @@ public class Moses extends Sprite {
                 }
             }
             for (Bug b : bugs) {
-                Sprite f;
                 if (b.getRelativePosition() != null && x == b.getRelativePosition().x && y == b.getRelativePosition().y) {
                     return "Die";
                 }
